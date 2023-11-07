@@ -1,0 +1,103 @@
+.logoflipkart{
+    height: 40px;
+}
+.searchbox{
+    width: 700px;
+    border: none;
+}
+.singinbtn{
+    border: none;
+}
+.txtsingin{
+    font-size: 17px
+}
+.txtsingin:hover{
+    color: white;
+}
+.navbtnoption{
+    border: none;
+}
+.navbtnoption:hover{
+    background-color: lightgray;
+    border: 1px solid gray;
+}
+.navlogoimage{
+    height: 65px;
+}
+.navlogoimg1{
+    margin-left: 105px;
+}
+.btnrightarrow{
+    margin-left: 166px;
+    height:70px;
+    width: 40px;
+    background-color: white;
+}
+.btnleftarrow{
+    height:70px;
+    width: 40px;
+    margin-right: 166px;
+    background-color: white;
+}
+.flxfirstsection{
+    background-color: red;
+}
+
+@media only screen and (max-width: 767px) {
+    .searchbox{
+        width: 390px;
+        height: 40px;
+        background-color: red;
+    } 
+    .searchbox1{
+        height: 42px;
+        width: 200px;
+        background-color: black;
+    }
+    .navuserservice{
+        /* visibility: hidden; */
+    }
+    .flxfirstsection{
+        position: relative;
+        bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: red;
+    }
+    .navlogoimage{
+        height: 50px;
+    }
+    .navpara{
+        font-size: 10px;
+    }
+    .navuserservice{
+        visibility: hidden;
+    }
+    .carsoulimg1{
+        height: 100px;
+    }
+    .carouselcard{
+        position: relative;
+        bottom: 100px;
+    }
+    .btnrightarrow{
+        margin-left: 16px;
+        height:60px;
+        width: 20px;
+        position: relative;
+        bottom: 100px;
+    }
+    .btnleftarrow{
+        height:60px;
+        width: 20px;
+        margin-right: 20px;
+        position: relative;
+        bottom: 100px;
+    }
+
+}
+
+@media only screen and  (min-width: 768px) and (max-width: 1200px){
+
+}
