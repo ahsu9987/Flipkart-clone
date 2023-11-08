@@ -1,6 +1,5 @@
 html,body
 {
-    /* width: 100%; */
     overflow-x: hidden;
 }
 .topnavbar{
@@ -8,7 +7,6 @@ html,body
 }
 .flipkartlogo1{
     height: 15px;
-    visibility: hidden;
 }
 .btnfipkart{
     visibility: hidden;
@@ -26,7 +24,6 @@ html,body
     border: none;
 }
 .searchbox1{
-    width: 720px;
     position: relative;
     right: 120px;
 }
@@ -39,58 +36,45 @@ html,body
     border: none;
 }
 .txtsingin{
-    font-size: 17px
+    font-size: 17px;
+    color: black;
 }
 .txtsingin:hover{
     color: white;
 }
-.navbtnoption{
-    border: none;
-}
-.navbtnoption:hover{
-    background-color: lightgray;
-    border: 1px solid gray;
-}
-.btnrightarrow{
-    margin-left: 166px;
-    height:70px;
-    width: 40px;
-    background-color: white;
-}
-.btnleftarrow{
-    height:70px;
-    width: 40px;
-    margin-right: 166px;
-    background-color: white;
-}
 .itemslogo{
-    max-height: 130px;
-    display: flex;
     overflow-x: auto;
     justify-content: center;
+    
 }
 .itemslogo::-webkit-scrollbar{
     width: 0;
 }
 .alllogo{
    min-width: 130px;
-   height: 130px;
    line-height: 35px;
    text-align: center;
    /* border: 1px solid black; */
-   background-color: white;
 }
-
-
+.navbtnoption:hover{
+    background-color: lightgray;
+}
+.btnrightarrow{
+    margin-left: 166px;
+    height:70px;
+    width: 40px;
+}
+.btnleftarrow{
+    margin-right: 166px;
+    height:70px;
+    width: 40px;
+}
 @media only screen and (max-width: 767px) {
     .topnavbar{
-        height: 120px;
-    }
-    .logoflipkart{
-       visibility:hidden; 
+        height: 125px;
     }
     .flipkartlogo1{
-        height: 20px;
+        height: 23px;
         visibility: visible;
     }
     .btnfipkart{
@@ -100,7 +84,7 @@ html,body
     }
     .btngrocery{
         height: 40px;
-        width: 170px;
+        width: 176px;
         visibility: visible;
         background-color: #989898;
     }
@@ -112,13 +96,11 @@ html,body
         bottom: 20px;
         }
     .navlogoimage{
-        height: 60px;
-    }
-    .navuserservice{
-        /* visibility: hidden; */
+        height: 58px;
     }
     .navpara{
-        font-size: 12px;
+        font-size: 13px;
+        color: lightslategray;
     }
     .itemslogo{
         justify-content:flex-start;
@@ -128,27 +110,12 @@ html,body
         padding: 6px;
     }
     .alllogo{
-       min-width: 125px;
        max-height: 100px;
     }
     .carouselcard{
         position: relative;
         bottom: 30px;
-        background-color:#f9fafc;
-        height: 130px;
     }
-    .btnrightarrow{
-        margin-left: 16px;
-        height:60px;
-        width: 20px;
-    }
-    .btnleftarrow{
-        height:60px;
-        width: 20px;
-        margin-right: 20px;
-    }
-
-
 }
 
 @media only screen and  (min-width: 768px) and (max-width: 1200px){
