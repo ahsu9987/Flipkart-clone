@@ -1,9 +1,39 @@
+html,body
+{
+    /* width: 100%; */
+    overflow-x: hidden;
+}
+.topnavbar{
+    height: 65px;
+}
+.flipkartlogo1{
+    height: 15px;
+    visibility: hidden;
+}
+.btnfipkart{
+    visibility: hidden;
+}
+.btngrocery{
+    visibility: hidden;
+}
 .logoflipkart{
     height: 40px;
+    position: relative;
+    right: 160px;
 }
 .searchbox{
     width: 700px;
     border: none;
+}
+.searchbox1{
+    width: 720px;
+    position: relative;
+    right: 120px;
+}
+.navuserservice{
+    position: relative;
+    left: 920px;
+    bottom: 40px;
 }
 .singinbtn{
     border: none;
@@ -51,56 +81,59 @@
    background-color: white;
 }
 
+
 @media only screen and (max-width: 767px) {
-    .searchbox{
-        width: 390px;
+    .topnavbar{
+        height: 120px;
+    }
+    .logoflipkart{
+       visibility:hidden; 
+    }
+    .flipkartlogo1{
+        height: 20px;
+        visibility: visible;
+    }
+    .btnfipkart{
         height: 40px;
-        background-color: red;
-    } 
+        width: 180px;
+        visibility: visible;
+    }
+    .btngrocery{
+        height: 40px;
+        width: 170px;
+        visibility: visible;
+        background-color: #989898;
+    }
     .searchbox1{
-        height: 42px;
-        width: 200px;
-        background-color: black;
-    }
-    .navuserservice{
-        /* visibility: hidden; */
-    }
-    .flxfirstsection{
+        height: 40px;
+        width: 370px;
         position: relative;
-        bottom: 100px;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        background-color: red;
-    }
+        right: 0px;
+        bottom: 20px;
+        }
     .navlogoimage{
         height: 60px;
     }
     .navuserservice{
-        visibility: hidden;
+        /* visibility: hidden; */
     }
     .navpara{
         font-size: 12px;
     }
     .itemslogo{
-        max-height: 120px;
         justify-content:flex-start;
         position: relative;
-        bottom: 120px;
-        background-color: #f9fafc;
+        bottom: 5px;
+        background-color: #F8F8F8;
+        padding: 6px;
     }
     .alllogo{
-       min-width: 127px;
+       min-width: 125px;
        max-height: 100px;
-       line-height: 20px;
-       /* border: 1px solid black; */
-    }
-    .carsoulimg1{
-        height: 100px;
     }
     .carouselcard{
         position: relative;
-        bottom: 145px;
+        bottom: 30px;
         background-color:#f9fafc;
         height: 130px;
     }
