@@ -51,7 +51,7 @@ html,body
     width: 0;
 }
 .alllogo{
-   min-width: 130px;
+   min-width: 225px;
    line-height: 35px;
    text-align: center;
    /* border: 1px solid black; */
@@ -68,6 +68,22 @@ html,body
     margin-right: 166px;
     height:70px;
     width: 40px;
+}
+.sbicardimg{
+    width: 100%; 
+    height: 130px;
+}
+.sbicardbg{
+    width:100%;
+}
+.bestmobilebox{
+    overflow-x: auto;
+    justify-content: start;
+    /* border: 2px solid rebeccapurple; */
+    width: 80%;
+}
+.bestmobilebox::-webkit-scrollbar{
+    width: 0;
 }
 @media only screen and (max-width: 767px) {
     .topnavbar{
@@ -106,15 +122,25 @@ html,body
         justify-content:flex-start;
         position: relative;
         bottom: 5px;
-        background-color: #F8F8F8;
+        /* background-color: #F8F8F8; */
         padding: 6px;
+        width: 375px;
+        /* border: 2px solid lightgray; */
+        background-color: white;
     }
     .alllogo{
        max-height: 100px;
     }
     .carouselcard{
         position: relative;
-        bottom: 30px;
+        bottom: 20px;
+    }
+    .sbicardimg{
+        height: 40px;
+    }
+    .sbicardbg{
+        position: relative;
+        bottom: 25px;
     }
 }
 
