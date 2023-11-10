@@ -45,8 +45,7 @@ html,body
 }
 .itemslogo{
     overflow-x: auto;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 .itemslogo::-webkit-scrollbar{
     width: 0;
@@ -106,6 +105,10 @@ html,body
     position: relative;
     left: 81%;
     bottom: 375px;
+}
+.cardsec1img1{
+    width: 495px;
+    background-color:#989898 ;
 }
 @media only screen and (max-width: 767px) {
     .topnavbar{
@@ -188,6 +191,9 @@ html,body
     }
     .Advertisecard1{
         visibility: hidden;
+    }
+    .cardsec1img1{
+        width: 120px;
     }
 }
 
