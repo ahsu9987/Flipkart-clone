@@ -110,6 +110,17 @@ html,body
     width: 495px;
     background-color:#989898 ;
 }
+.beautyimgall{
+    height: 180px;
+}
+.beautyitembox{
+    overflow-x: auto;
+    width: 99%;
+    height:300px;
+}
+.beautyitembox::-webkit-scrollbar{
+    width: 0;
+}
 @media only screen and (max-width: 767px) {
     .topnavbar{
         height: 125px;
@@ -194,6 +205,9 @@ html,body
     }
     .cardsec1img1{
         width: 120px;
+    }
+    .beautyimgall{
+        height: 120px;
     }
 }
 
