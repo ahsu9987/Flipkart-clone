@@ -3,6 +3,10 @@ html,body
     overflow-x: hidden;
     background-color: 	#F0F0F0;
 }
+#navbar{
+    position: fixed;
+    z-index: 1;
+}
 .topnavbar{
     height: 65px;
 }
@@ -45,7 +49,10 @@ html,body
 }
 .itemslogo{
     overflow-x: auto;
-    justify-content: center; 
+    justify-content: center;
+    height: 180px; 
+    position: relative;
+    top: 60px;  
 }
 .itemslogo::-webkit-scrollbar{
     width: 0;
@@ -123,7 +130,30 @@ html,body
 .beautyitembox::-webkit-scrollbar{
     width: 0;
 }
+.threebox{
+    width: 480px; 
+    height: 710px;
+    margin-left: 13px;
+}
+.card1{
+    width: 14rem;
+    margin-top: 10px;
+}
+.card2{
+    width: 14rem; 
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.cardimg1{
+    height: 230px;
+}
+.cardimg2{
+    height: 200px;
+}
 @media only screen and (max-width: 767px) {
+    #navbar{
+        position: relative;
+    }
     .topnavbar{
         height: 125px;
     }
@@ -158,8 +188,9 @@ html,body
     }
     .itemslogo{
         justify-content:flex-start;
+        height: 120px; 
         position: relative;
-        bottom: 5px;
+        top: 0px;
         padding: 6px;
         width: 375px;
         background-color: white;
@@ -224,6 +255,29 @@ html,body
         position:relative; 
         bottom:  90px; 
         height: 300px;
+    }
+    .threebox{
+        /* width: 480px;  */
+        height: 587px;
+        margin-top: 10px;
+        margin-left: 0px;
+        position: relative;
+        bottom: 120px;
+    }
+    .card1{
+        width: 11rem;
+        margin-top: 10px;
+    }
+    .card2{
+        width: 10rem; 
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .cardimg1{
+        height: 150px;
+    }
+    .cardimg2{
+        height: 150px;
     }
 }
 
