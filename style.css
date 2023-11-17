@@ -132,7 +132,7 @@ html,body
 }
 .threebox{
     width: 480px; 
-    height: 710px;
+    height: 730px;
     margin-left: 13px;
 }
 .card1{
@@ -148,7 +148,7 @@ html,body
     height: 230px;
 }
 .cardimg2{
-    height: 200px;
+    height: 230px;
 }
 @media only screen and (max-width: 767px) {
     #navbar{
@@ -278,6 +278,20 @@ html,body
     }
     .cardimg2{
         height: 150px;
+    }
+    .ElectronicSection{
+        position:relative; 
+        bottom:  140px; 
+        height: 300px;
+    }
+    .cardsection2{
+        position: relative;
+        bottom: 100px;
+    }
+    .FashionSection{
+        position:relative; 
+        bottom:  170px; 
+        height: 300px;
     }
 }
 
