@@ -27,7 +27,7 @@ html,body
     right: 160px;
 }
 .searchbox{
-    width: 700px;
+    width: 800px;
     border: none;
 }
 .searchbox1{
@@ -36,7 +36,7 @@ html,body
 }
 .navuserservice{
     position: relative;
-    left: 920px;
+    left: 1080px;
     bottom: 40px;
 }
 .singinbtn{
@@ -116,8 +116,7 @@ html,body
     bottom: 375px;
 }
 .cardsec1img1{
-    width: 495px;
-    background-color:#989898 ;
+    width: 550px;
 }
 .beautyimgall{
     height: 180px;
@@ -133,17 +132,17 @@ html,body
     width: 0;
 }
 .threebox{
-    width: 480px; 
+    width: 540px; 
     height: 730px;
-    margin-left: 13px;
+    margin-left: 10px;
 }
 .card1{
-    width: 14rem;
+    width: 16rem;
     margin-top: 10px;
 }
 .card2{
-    width: 14rem; 
-    margin-left: 80px;
+    width: 16rem; 
+    margin-left: 90px;
     margin-top: 10px;
 }
 .cardimg1{
@@ -157,7 +156,7 @@ html,body
 }
 .flipkartadvertisment{
     height: 730px;
-    width: 1005px;
+    width: 1150px;
 }
 @media only screen and (max-width: 767px) {
     #navbar{
@@ -250,7 +249,7 @@ html,body
         height: 300px;
     }
     .threebox{
-        /* width: 480px;  */
+        width: 480px; 
         height: 587px;
         margin-top: 10px;
         margin-left: 0px;
