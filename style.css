@@ -29,10 +29,13 @@ html,body
 .searchbox{
     width: 800px;
     border: none;
+    background-color: 	#F0FFFF;
 }
 .searchbox1{
     position: relative;
     right: 120px;
+    background-color: 	#F0FFFF;
+
 }
 .navuserservice{
     position: relative;
@@ -157,6 +160,10 @@ html,body
 .flipkartadvertisment{
     height: 730px;
     width: 1150px;
+}
+.footerrow{
+    margin-right: 300px;
+    margin-left: 100px;
 }
 @media only screen and (max-width: 767px) {
     #navbar{
@@ -292,6 +299,95 @@ html,body
     }
     .flipkartadvertisment{
     display: none;    
-}
+    }
+    .footerrow{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .footertxt{
+        margin-left: 50px;
+    }  
 }
 
+@media only screen and (min-width: 768px) and (max-width: 949px){
+    #navbar{
+        /* position: relative; */
+    }
+    .flipkartlogo1{
+        display: none;
+    }
+    .btnfipkart{
+        display: none;
+    }
+    .btngrocery{
+        display: none;
+    }
+    .logoflipkart{
+        height: 40px;
+        position: relative;
+        right: 40px;
+    }
+    .searchbox1{
+        height: 50px;
+        width: 280px;
+        position: relative;
+        right:30px;
+        bottom: 0px;
+        }
+        .navuserservice{
+            position: relative;
+            left: 350px;
+            bottom: 50px;
+        }
+        .itemslogo{
+            /* overflow-x: auto; */
+            justify-content: start;
+            height: 200px; 
+            position: relative;
+            top: 60px;  
+        }
+        .bestmobilebox{
+            width: 65%;
+        }
+        .advertisementimg1{
+            position: relative;
+            right: 100px;
+        }
+        .cardsec1img1{
+            width:285px;
+        }
+        .threebox{
+            width: 850px; 
+            height: 760px;
+            margin-left: 2px;
+        }
+        .card1{
+            width: 23rem;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .card2{
+            width: 23rem; 
+            margin-left: 50px;
+        }
+        .cardimg1{
+            height: 250px;
+        }
+        .cardimg2{
+            height: 230px;
+        }
+        .flipkartadvertisment{
+            display: none;
+        }
+        .footerrow{
+            margin-right:0px;
+            margin-left:0px;
+        }
+        .footertxt{
+            margin-left: 0px;
+        }
+        .rightarrow{
+            margin-left: 420px;
+        }
+       
+}
